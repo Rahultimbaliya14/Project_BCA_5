@@ -1,0 +1,31 @@
+.card {
+    width: 90%;
+    padding: 70px;
+    margin: 20px auto;
+    display: flex;
+    border-left-width: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    transition: 1s;
+}
+.card:hover{
+   border:10px solid white;
+}
+.box img{
+    width: 70%;
+    height:250%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 1s; 
+    border-radius: 20px;
+    transform: scale(1);
+}
+.box img:hover{
+    transform: scale(2);
+    z-index: 2;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid black ;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.info table th{
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    
+}
+.th {
+   color: red;
+   margin-left: 50px;
+   align-items: center;
+   
+}
+.table{
+    padding:10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+
+}
+.table tr{
+    transition: 2s;
+}
+.table tr:hover{
+    background-color: rgba(0,0,0,0.1);
+    color: red;
+}
+.td{
+    font-family: 'Kanit', sans-serif;
+    padding-top: 30px;
+    font-weight: bolder;
+   text-align: center;
+ }
+.Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fa-solid{
+    color: red;
+}
+.ticketno{
+    font-size: 20px;
+    display: flex;
+   
+}
+.nametext{
+    font-size: 20px;
+    border: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+.name{
+    border: none;
+}
+.nametext h4{
+    padding-top: 30px;
+}
+ 
+.ticketno h4{
+    padding-top: 30px;
+}
+.no{
+    
+    color: red;
+    border: none;
+}
+#name{
+    color: red;
+}
+#deletemodal{
+    font-family: 'Righteous', cursive;
+
+    
+}
+.reason textarea{
+    width: 100%;
+    border:1px solid red;
+    height: 100px;
+}
+.reason p{
+    font-weight: bolder;
+}.modal-header{
+    background: rgba(0,0,0,0.2);
+}
+.modal-footer{
+    background: rgba(0,0,0,0.2);
+}
+.modal-body{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 7);
+}

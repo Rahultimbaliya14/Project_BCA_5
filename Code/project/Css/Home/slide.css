@@ -1,0 +1,53 @@
+.slide {
+    padding: 20px;
+    border-radius: 100px;
+
+}
+
+.carousel-inner {
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 25px;
+    border-top-color: antiquewhite;
+}
+.carousel-inner:hover{
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.carousel-item  img{
+    transition: 1s;
+}
+.carousel-item  img:hover{
+    transform: scale(1.2);
+
+}
+
+.slidetitle {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 2s;
+    
+}
+
+.slidetitle:hover {
+    transform: scale(1.4);
+     
+    font-style: italic;
+}
+
+.slidecaption{
+    font-size: 25px;
+    font-style: italic;
+    transition: 1s;
+}
+.slidecaption:hover{
+    transform: scale(1.4 );
+   
+    font-style: normal;
+    font-variant: initial;
+}

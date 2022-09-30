@@ -1,0 +1,31 @@
+.multyimage {
+    margin: 30px 30px;
+    
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    background-color:rgba(0,0, 0, 0.7);
+    border-radius: 30px;
+    flex-direction: row;
+}
+.multyimage img{
+    border-top-right-radius: 100px;
+    
+}
+.mutyimagetext{
+    color: white;
+    text-size-adjust: 100%;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    block-size: auto;
+    align-items: center;
+    justify-content: center;
+}
+.space{
+    padding-top: 50px;
+}

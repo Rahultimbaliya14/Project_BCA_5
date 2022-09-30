@@ -1,0 +1,61 @@
+body{
+    background-image: url(../../Images/Velavadar-Blackbuck-National-Park-Thumbnail.jpg);
+    display:flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+form{
+    opacity: 0.8;
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    float:right;
+    background: #555;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    opacity: 0.5;
+}
+span{
+    color: red;
+}
+.error{
+     background: #f2dede;
+     color: #a94442;
+     padding: 15px;
+     width: 95%;
+     border-radius: 10px;
+     margin: auto;
+
+}

@@ -1,0 +1,76 @@
+body{
+    background: rgba(225,225, 225, 0.9);
+}
+.main-bord{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    width: 70rem;
+    margin-left: 160px;
+}
+.main-bord{
+    width: 70rem;
+}
+.card-bord{
+    display: flex;
+    padding: 15px 40px;
+
+}
+.card{
+    width: 230px;
+    height: 150px;
+    padding: 20px;
+    background-color: orange;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom:0px;
+}
+.wrapper{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    margin-right: 90px;
+    margin-top: 60px;
+}
+.card-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon i{
+    margin:15px 0;
+    
+    margin-right: 2rem;
+    flex-direction: column;
+}
+.text{
+    text-align: center;
+
+}
+.comment{
+    border-radius: 20px;
+    height: 300px;
+    color: white;
+    width: 300px;
+    margin-right: 580px;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+}
+.comment h2{
+    color: white;
+}
+.comment h3{
+    font-size: 25px;
+}
+.comment p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.official{
+    margin-left: -300px;
+}

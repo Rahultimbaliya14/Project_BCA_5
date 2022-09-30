@@ -1,0 +1,29 @@
+.container{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.25s;
+}
+.card:hover{
+      transform: scale(1.2);
+}
+.container iframe{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(225,225,225, 0.3);
+    
+    transition: 1s; box-shadow: 
+    5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.container iframe:hover{
+    transform: scale(1.2);
+}
+
+.video{
+    margin-right: 25px;
+}
